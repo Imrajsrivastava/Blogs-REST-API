@@ -78,6 +78,9 @@ app.get("/",(req,res)=>{
 //   }
 // });
 
+
+//https://cute-skirt-cow.cyclic.cloud/
+
 //auth routes...
 app.use("/", authRouter);
 
