@@ -18,6 +18,10 @@ app.use(cors());
 
 const PORT = process.env.PORT || 8080;
 
+
+app.get("/",(req,res)=>{
+  res.send({msg:"base route here"})
+})
 //signup...route
 
 // app.post("/signup", async (req, res) => {
